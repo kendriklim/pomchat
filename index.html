@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookChat</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span id="current-username">Current username: anonymous</span>
+            <!-- No-JS username form -->
+            <form method="POST" action="/username" class="nojs-only">
+                <input name="new_username" required>
+                <button type="submit">Change Username</button>
+            </form>
+            <!-- JS-only button -->
+            <button id="change-username-btn" class="js-only">Change Username</button>
+        </div>
+        
+        <div id="messages">
+            <!-- No-JS refresh -->
+            <form method="GET" action="/" class="nojs-only">
+                <button type="submit">Refresh</button>
+            </form>
+            <div id="messages-container"></div>
+        </div>
+        
+        <!-- Message form works with/without JS -->
+        <form method="POST" action="/messages" class="message-form">
+            <textarea name="content" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>

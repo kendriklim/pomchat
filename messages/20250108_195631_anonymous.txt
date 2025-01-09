@@ -1,0 +1,6 @@
+Date: 2025-01-08T19:56:31.306077
+Author: anonymous
+Type: username_change
+Signature: q4sWJ7ry2j3RRG2ZU9rVC/VZkfcKj4GmXK3ICGq28uaaTlQ/gdDzCVmr8Z5K22vwZktSy4lYKo5KoHdiLEArhzdtrpRrbVlCcUn/ZX1mK5vA0/8VKXyepr0idwe+0dKlE3GFPPbPvRrMCY35duQa8PShn6My132NlUd1S1P0/cDHAVbK8Vko+cs3Gj3h/lu5wuIPpvxdBo+ytFLnojis+GqsOB6eo8F8kwUZzig9jatGgPlaJRhgVQSW6NMGF1fOZOFMPDUDTnUP0gRYIlpe3t/Xs8kC6DufMm2VIoGj2Tl3VHadtAW2ARiFucXP4aPgX/hGthlqKOczobi1JJzpUA==
+
+{"old_username":"anonymous","new_username":"ken"}
